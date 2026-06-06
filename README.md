@@ -259,15 +259,6 @@ If you use this implementation in academic work, please cite:
 ```
 
 ---
-
-## Notes
-
-This repository represents a research implementation intended for experimentation and performance evaluation.
-
-It is not intended to be used directly in production environments without additional security review, parameter validation, side-channel analysis, and independent cryptographic assessment.
-
----
-
 ## Author
 
 **Dr. Anas Melhem (formerly publishing as Anas Ibrahim)**
