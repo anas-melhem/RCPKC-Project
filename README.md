@@ -21,28 +21,37 @@ The current implementation focuses on:
 * Experimental evaluation over large plaintext datasets
 
 ---
+## Note:
+This repository uses hard-coded RCPKC parameters from the experimental setup in the paper. A Portable C++ **command-line prototype** implementation is availalbe in `RCPKC_CLI/` that: 
+- Supports key generation, encryption, decryption, and benchmarking.
+- Stores public and private keys in files.
+- Avoids hard-coded keys in the main workflow.
+---
 
 ## Repository Structure
 
 ```text
 RCPKC-Project/
-│
 ├── RCPKC/
 │   ├── RCPKC.cpp
+│   ├── RCPKC.vcxproj
 │   ├── Message_samples3.csv
 │   ├── Message_samples4.csv
 │   ├── Message_samples5.csv
 │   └── ResultsFile.csv
 │
+├── RCPKC_CLI/
+│   ├── rcpkc_cli.cpp
+│   ├── Makefile
+│   └── README.md
+│
 ├── GetPID/
 ├── GetTime/
 ├── MakeDesc/
-│
 ├── doc/
-│   └── NTL documentation
-│
-└── README.txt
+└── src/
 ```
+
 
 ### Main Components
 
